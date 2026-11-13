@@ -7,3 +7,5 @@ data/raw/*.zip
 data/raw/*-pei.json
 data/processed/*.sqlite
 .DS_Store
+*.twbr
+hyperd.log

@@ -75,6 +75,8 @@ The PostgreSQL schema has a `(series, period)` primary key, metric/range constra
 
 ## Validation and measured performance
 
+The corrected native Tableau package was opened in Tableau Public on the development Mac and rendered its four sheets after fixing the workbook format manifest. The browser dashboard area and household-size controls were also exercised.
+
 Ten tests cover calendar alignment, duplicate rejection, Ontario look-alike geography exclusion, missing-value propagation, scenario arithmetic, and repeatability. A real local PostgreSQL run matched all three analytical views exactly; evidence is in `reports/run.json` and `reports/data_quality.json`.
 
 Three cached-source rebuilds returned identical analytical hashes with a **0.489-second median** on the development Mac. Timing covers normalization, SQL and CSV exports only; excludes network, PDF, plotting and Tableau generation. This is processing performance, not measured time saved by an employer.
