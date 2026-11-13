@@ -1,0 +1,17 @@
+services:
+  postgres:
+    image: postgres:18
+    environment:
+      POSTGRES_DB: housing
+      POSTGRES_USER: housing
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD}
+    ports:
+      - '127.0.0.1:55433:5432'
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U housing -d housing']
+      interval: 3s
+      retries: 20
+    volumes:
+      - housing_pg:/var/lib/postgresql
+volumes:
+  housing_pg:

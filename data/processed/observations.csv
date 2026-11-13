@@ -1,0 +1,91 @@
+series,period,geo,source_geo,dguide,metric,value,unit,status,source
+v1930334,2017,Charlottetown survey area,"Charlottetown, Prince Edward Island",2011S0504105,vacancy_pct,1.0,Rate,,34100131
+v1930334,2018,Charlottetown survey area,"Charlottetown, Prince Edward Island",2011S0504105,vacancy_pct,0.2,Rate,,34100131
+v1930334,2019,Charlottetown survey area,"Charlottetown, Prince Edward Island",2011S0504105,vacancy_pct,1.2,Rate,,34100131
+v1930334,2020,Charlottetown survey area,"Charlottetown, Prince Edward Island",2011S0504105,vacancy_pct,2.5,Rate,,34100131
+v1930334,2021,Charlottetown survey area,"Charlottetown, Prince Edward Island",2011S0504105,vacancy_pct,1.5,Rate,,34100131
+v1930334,2022,Charlottetown survey area,"Charlottetown, Prince Edward Island",2011S0504105,vacancy_pct,0.9,Rate,,34100131
+v1930334,2023,Charlottetown survey area,"Charlottetown, Prince Edward Island",2011S0504105,vacancy_pct,0.6,Rate,,34100131
+v1930334,2024,Charlottetown survey area,"Charlottetown, Prince Edward Island",2011S0504105,vacancy_pct,0.7,Rate,,34100131
+v1930334,2025,Charlottetown survey area,"Charlottetown, Prince Edward Island",2011S0504105,vacancy_pct,1.7,Rate,,34100131
+v1930450,2017,Summerside survey area,"Summerside, Prince Edward Island",2011S0504110,vacancy_pct,1.6,Rate,,34100132
+v1930450,2018,Summerside survey area,"Summerside, Prince Edward Island",2011S0504110,vacancy_pct,0.6,Rate,,34100132
+v1930450,2019,Summerside survey area,"Summerside, Prince Edward Island",2011S0504110,vacancy_pct,0.7,Rate,,34100132
+v1930450,2020,Summerside survey area,"Summerside, Prince Edward Island",2011S0504110,vacancy_pct,1.0,Rate,,34100132
+v1930450,2021,Summerside survey area,"Summerside, Prince Edward Island",2011S0504110,vacancy_pct,0.7,Rate,,34100132
+v1930450,2022,Summerside survey area,"Summerside, Prince Edward Island",2011S0504110,vacancy_pct,1.0,Rate,,34100132
+v1930450,2023,Summerside survey area,"Summerside, Prince Edward Island",2011S0504110,vacancy_pct,2.7,Rate,,34100132
+v1930450,2024,Summerside survey area,"Summerside, Prince Edward Island",2011S0504110,vacancy_pct,0.8,Rate,,34100132
+v1930450,2025,Summerside survey area,"Summerside, Prince Edward Island",2011S0504110,vacancy_pct,3.2,Rate,,34100132
+v3823112,2017,Charlottetown survey area,"Charlottetown, Prince Edward Island",2011S0504105,rent_2br,911.0,Dollars,,34100133
+v3823112,2018,Charlottetown survey area,"Charlottetown, Prince Edward Island",2011S0504105,rent_2br,937.0,Dollars,,34100133
+v3823112,2019,Charlottetown survey area,"Charlottetown, Prince Edward Island",2011S0504105,rent_2br,962.0,Dollars,,34100133
+v3823112,2020,Charlottetown survey area,"Charlottetown, Prince Edward Island",2011S0504105,rent_2br,1013.0,Dollars,,34100133
+v3823112,2021,Charlottetown survey area,"Charlottetown, Prince Edward Island",2011S0504105,rent_2br,1119.0,Dollars,,34100133
+v3823112,2022,Charlottetown survey area,"Charlottetown, Prince Edward Island",2011S0504105,rent_2br,1083.0,Dollars,,34100133
+v3823112,2023,Charlottetown survey area,"Charlottetown, Prince Edward Island",2011S0504105,rent_2br,1190.0,Dollars,,34100133
+v3823112,2024,Charlottetown survey area,"Charlottetown, Prince Edward Island",2011S0504105,rent_2br,1239.0,Dollars,,34100133
+v3823112,2025,Charlottetown survey area,"Charlottetown, Prince Edward Island",2011S0504105,rent_2br,1354.0,Dollars,,34100133
+v3823200,2017,Summerside survey area,"Summerside, Prince Edward Island",2011S0504110,rent_2br,810.0,Dollars,,34100133
+v3823200,2018,Summerside survey area,"Summerside, Prince Edward Island",2011S0504110,rent_2br,842.0,Dollars,,34100133
+v3823200,2019,Summerside survey area,"Summerside, Prince Edward Island",2011S0504110,rent_2br,860.0,Dollars,,34100133
+v3823200,2020,Summerside survey area,"Summerside, Prince Edward Island",2011S0504110,rent_2br,889.0,Dollars,,34100133
+v3823200,2021,Summerside survey area,"Summerside, Prince Edward Island",2011S0504110,rent_2br,912.0,Dollars,,34100133
+v3823200,2022,Summerside survey area,"Summerside, Prince Edward Island",2011S0504110,rent_2br,930.0,Dollars,,34100133
+v3823200,2023,Summerside survey area,"Summerside, Prince Edward Island",2011S0504110,rent_2br,935.0,Dollars,,34100133
+v3823200,2024,Summerside survey area,"Summerside, Prince Edward Island",2011S0504110,rent_2br,1097.0,Dollars,,34100133
+v3823200,2025,Summerside survey area,"Summerside, Prince Edward Island",2011S0504110,rent_2br,1241.0,Dollars,,34100133
+v730582,2017,PEI,Prince Edward Island,2016A000211,starts,911.0,Units,,34100126
+v730582,2018,PEI,Prince Edward Island,2016A000211,starts,1089.0,Units,,34100126
+v730582,2019,PEI,Prince Edward Island,2016A000211,starts,1504.0,Units,,34100126
+v730582,2020,PEI,Prince Edward Island,2016A000211,starts,1240.0,Units,,34100126
+v730582,2021,PEI,Prince Edward Island,2016A000211,starts,1260.0,Units,,34100126
+v730582,2022,PEI,Prince Edward Island,2016A000211,starts,1318.0,Units,,34100126
+v730582,2023,PEI,Prince Edward Island,2016A000211,starts,1139.0,Units,,34100126
+v730582,2024,PEI,Prince Edward Island,2016A000211,starts,1694.0,Units,,34100126
+v730582,2025,PEI,Prince Edward Island,2016A000211,starts,1769.0,Units,,34100126
+v732456,2017,PEI,Prince Edward Island,2016A000211,completions,705.0,Units,,34100126
+v732456,2018,PEI,Prince Edward Island,2016A000211,completions,950.0,Units,,34100126
+v732456,2019,PEI,Prince Edward Island,2016A000211,completions,768.0,Units,,34100126
+v732456,2020,PEI,Prince Edward Island,2016A000211,completions,1484.0,Units,,34100126
+v732456,2021,PEI,Prince Edward Island,2016A000211,completions,1396.0,Units,,34100126
+v732456,2022,PEI,Prince Edward Island,2016A000211,completions,1266.0,Units,,34100126
+v8,2017-01-01,PEI,Prince Edward Island,2021A000211,population,147811.0,Persons,,17100009
+v8,2017-04-01,PEI,Prince Edward Island,2021A000211,population,148354.0,Persons,,17100009
+v8,2017-07-01,PEI,Prince Edward Island,2021A000211,population,149740.0,Persons,,17100009
+v8,2017-10-01,PEI,Prince Edward Island,2021A000211,population,150595.0,Persons,,17100009
+v8,2018-01-01,PEI,Prince Edward Island,2021A000211,population,150619.0,Persons,,17100009
+v8,2018-04-01,PEI,Prince Edward Island,2021A000211,population,151008.0,Persons,,17100009
+v8,2018-07-01,PEI,Prince Edward Island,2021A000211,population,152259.0,Persons,,17100009
+v8,2018-10-01,PEI,Prince Edward Island,2021A000211,population,153906.0,Persons,,17100009
+v8,2019-01-01,PEI,Prince Edward Island,2021A000211,population,153881.0,Persons,,17100009
+v8,2019-04-01,PEI,Prince Edward Island,2021A000211,population,154409.0,Persons,,17100009
+v8,2019-07-01,PEI,Prince Edward Island,2021A000211,population,155792.0,Persons,,17100009
+v8,2019-10-01,PEI,Prince Edward Island,2021A000211,population,157025.0,Persons,,17100009
+v8,2020-01-01,PEI,Prince Edward Island,2021A000211,population,157494.0,Persons,,17100009
+v8,2020-04-01,PEI,Prince Edward Island,2021A000211,population,158401.0,Persons,,17100009
+v8,2020-07-01,PEI,Prince Edward Island,2021A000211,population,159193.0,Persons,,17100009
+v8,2020-10-01,PEI,Prince Edward Island,2021A000211,population,159179.0,Persons,,17100009
+v8,2021-01-01,PEI,Prince Edward Island,2021A000211,population,159240.0,Persons,,17100009
+v8,2021-04-01,PEI,Prince Edward Island,2021A000211,population,160334.0,Persons,,17100009
+v8,2021-07-01,PEI,Prince Edward Island,2021A000211,population,162133.0,Persons,,17100009
+v8,2021-10-01,PEI,Prince Edward Island,2021A000211,population,163690.0,Persons,,17100009
+v8,2022-01-01,PEI,Prince Edward Island,2021A000211,population,164203.0,Persons,,17100009
+v8,2022-04-01,PEI,Prince Edward Island,2021A000211,population,165481.0,Persons,,17100009
+v8,2022-07-01,PEI,Prince Edward Island,2021A000211,population,167147.0,Persons,,17100009
+v8,2022-10-01,PEI,Prince Edward Island,2021A000211,population,168882.0,Persons,,17100009
+v8,2023-01-01,PEI,Prince Edward Island,2021A000211,population,169731.0,Persons,,17100009
+v8,2023-04-01,PEI,Prince Edward Island,2021A000211,population,171399.0,Persons,,17100009
+v8,2023-07-01,PEI,Prince Edward Island,2021A000211,population,173270.0,Persons,,17100009
+v8,2023-10-01,PEI,Prince Edward Island,2021A000211,population,175675.0,Persons,,17100009
+v8,2024-01-01,PEI,Prince Edward Island,2021A000211,population,176134.0,Persons,,17100009
+v8,2024-04-01,PEI,Prince Edward Island,2021A000211,population,177269.0,Persons,,17100009
+v8,2024-07-01,PEI,Prince Edward Island,2021A000211,population,178869.0,Persons,,17100009
+v8,2024-10-01,PEI,Prince Edward Island,2021A000211,population,179997.0,Persons,,17100009
+v8,2025-01-01,PEI,Prince Edward Island,2021A000211,population,179816.0,Persons,,17100009
+v8,2025-04-01,PEI,Prince Edward Island,2021A000211,population,180457.0,Persons,,17100009
+v8,2025-07-01,PEI,Prince Edward Island,2021A000211,population,181594.0,Persons,,17100009
+v8,2025-10-01,PEI,Prince Edward Island,2021A000211,population,182588.0,Persons,,17100009
+v8,2026-01-01,PEI,Prince Edward Island,2021A000211,population,182576.0,Persons,,17100009
+v8,2026-04-01,PEI,Prince Edward Island,2021A000211,population,182700.0,Persons,,17100009
+v8,2026-07-01,PEI,Prince Edward Island,2021A000211,population,182989.0,Persons,,17100009

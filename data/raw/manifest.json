@@ -1,0 +1,52 @@
+[
+  {
+    "table": "17100009",
+    "title": "Population estimates, quarterly",
+    "url": "https://www150.statcan.gc.ca/n1/tbl/csv/17100009-eng.zip",
+    "page": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000901",
+    "retrieved_at": "2026-11-13T07:12:52.939951+00:00",
+    "csv_sha256": "eb951304face945262e2007fbf4108b893a81c0cd1c70bc8c471631e58c8f38a",
+    "zip_sha256": "b50bf05150e42edf3771ceb1d6868581fb6747b5886e0d1450b8b3437958bd0b",
+    "bytes": 418418
+  },
+  {
+    "table": "34100126",
+    "title": "Housing starts, completions and under construction, all areas, annual",
+    "url": "https://www150.statcan.gc.ca/n1/tbl/csv/34100126-eng.zip",
+    "page": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3410012601",
+    "retrieved_at": "2026-11-13T07:12:53.127647+00:00",
+    "csv_sha256": "dbd957f454800f615b57e7da708954afa8d73d8220f8aca3561eee0e764d38fb",
+    "zip_sha256": "3d27f9cd171b182e7372667b48c1b3a7402dafbfe9582c4de42e3ef6f3cdd1f5",
+    "bytes": 1825757
+  },
+  {
+    "table": "34100133",
+    "title": "Average rents, urban areas 10,000+",
+    "url": "https://www150.statcan.gc.ca/n1/tbl/csv/34100133-eng.zip",
+    "page": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3410013301",
+    "retrieved_at": "2026-11-13T07:12:53.662483+00:00",
+    "csv_sha256": "824f50b6b644c9cc6c6a67cc78bdf9451d74d673fe064bc19c5c82b6cee42c3c",
+    "zip_sha256": "9085a5bdbcdd2f29a4235175a65d940d7b84346a09548a974ffff26fbf0523b2",
+    "bytes": 24042374
+  },
+  {
+    "table": "34100131",
+    "title": "Vacancy, row/apartment 3+ units, agglomerations 50,000+",
+    "url": "https://www150.statcan.gc.ca/n1/tbl/csv/34100131-eng.zip",
+    "page": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3410013101",
+    "retrieved_at": "2026-11-13T07:12:53.947389+00:00",
+    "csv_sha256": "667fbd9fbcfb018698561fa7c9433bea6ba893f529c4cb54e04ea26640dc7dea",
+    "zip_sha256": "9cd4d2b813d79b6c5720b32ae2f072065f6eba32e6e65de11c54efcef39af79f",
+    "bytes": 107928
+  },
+  {
+    "table": "34100132",
+    "title": "Vacancy, row/apartment 3+ units, agglomerations 10,000\u201349,999",
+    "url": "https://www150.statcan.gc.ca/n1/tbl/csv/34100132-eng.zip",
+    "page": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3410013201",
+    "retrieved_at": "2026-11-13T07:12:54.074448+00:00",
+    "csv_sha256": "74b69a9e30284572cf655530426580f02ad3778f1ab11e3c1c5c03d07ef54bd7",
+    "zip_sha256": "dbcdf7d47c27ee6acb7325a50aedcb91c18245d16afc4b055a2c37a8172f6a9f",
+    "bytes": 599962
+  }
+]

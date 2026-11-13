@@ -1,0 +1,29 @@
+{
+  "selected_records": 90,
+  "source_counts": {
+    "17100009": 39,
+    "34100126": 15,
+    "34100133": 18,
+    "34100131": 9,
+    "34100132": 9
+  },
+  "duplicate_keys": 0,
+  "unavailable_observations": [],
+  "rejected_records": [],
+  "coverage": {
+    "vacancy_pct": "2025",
+    "population": "2026-07-01",
+    "starts": "2025",
+    "rent_2br": "2025",
+    "completions": "2022"
+  },
+  "annual_rows": 9,
+  "scenario_rows": 15,
+  "warnings": [
+    "Completions source ends in 2022; later completion values are NULL, never zero or substituted starts.",
+    "Urban rental survey areas are not Charlottetown/Summerside municipal boundaries and are not PEI-wide.",
+    "Average observed rent is not asking rent or a fixed-sample rent inflation measure.",
+    "Scenario: population change / assumed household size; not a causal estimate, stock deficit, or official projection."
+  ],
+  "postgres_parity": "All three analytical views match SQLite exactly"
+}

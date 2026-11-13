@@ -1,0 +1,7 @@
+{
+  "completed_at": "2026-11-13T11:11:11.014021+00:00",
+  "seconds": 0.348,
+  "analytical_sha256": "09ec746486ceb5efa3e5e2fdeab8fc93925677e9bcecac887c96b441ef4926cf",
+  "rows": 90,
+  "postgres_verified": true
+}

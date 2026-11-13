@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='utf-8'?>
+<workbook original-version="18.1" source-build="2025.1.0" source-platform="mac" version="18.1" xmlns:user="http://www.tableausoftware.com/xml/user">
+  <document-format-change-manifest>
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences />
+  <datasources>
+    <datasource caption="PEI | Official housing indicators" inline="true" name="housing" version="18.1">
+      <connection class="hyper" dbname="Data/Housing.hyper" schema="Extract" access-mode="readonly">
+        <relation name="Extract" table="[Extract].[Extract]" type="table" />
+      </connection>
+      <column datatype="string" name="[metric]" role="dimension" type="nominal" />
+      <column datatype="string" name="[area]" role="dimension" type="nominal" />
+      <column datatype="string" name="[year]" role="dimension" type="ordinal" />
+      <column datatype="real" name="[value]" role="measure" type="quantitative" />
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name="1 | PEI population change">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname="Arial" fontsize="12" bold="true">1 | PEI population change</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="PEI | Official housing indicators" name="housing" />
+          </datasources>
+          <datasource-dependencies datasource="housing">
+            <column datatype="string" name="[metric]" role="dimension" type="nominal" />
+            <column datatype="string" name="[area]" role="dimension" type="nominal" />
+            <column datatype="string" name="[year]" role="dimension" type="ordinal" />
+            <column datatype="real" name="[value]" role="measure" type="quantitative" />
+            <column-instance column="[metric]" derivation="None" name="[none:metric:nk]" pivot="key" type="nominal" />
+            <column-instance column="[area]" derivation="None" name="[none:area:nk]" pivot="key" type="nominal" />
+            <column-instance column="[year]" derivation="None" name="[none:year:ok]" pivot="key" type="ordinal" />
+            <column-instance column="[value]" derivation="Sum" name="[sum:value:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <filter class="categorical" column="[housing].[none:metric:nk]">
+            <groupfilter function="member" level="[none:metric:nk]" member="&quot;population_change&quot;" />
+          </filter>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="mark">
+            <format attr="mark-color" value="#267269" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Line" />
+            <encodings>
+              <color column="[housing].[none:area:nk]" />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[housing].[sum:value:qk]</rows>
+        <cols>[housing].[none:year:ok]</cols>
+      </table>
+      <simple-id uuid="{6AA4AB8B-0D8B-4BA8-8377-F1C3B7666955}" />
+    </worksheet>
+    <worksheet name="2 | PEI completions (ends 2022)">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname="Arial" fontsize="12" bold="true">2 | PEI completions (ends 2022)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="PEI | Official housing indicators" name="housing" />
+          </datasources>
+          <datasource-dependencies datasource="housing">
+            <column datatype="string" name="[metric]" role="dimension" type="nominal" />
+            <column datatype="string" name="[area]" role="dimension" type="nominal" />
+            <column datatype="string" name="[year]" role="dimension" type="ordinal" />
+            <column datatype="real" name="[value]" role="measure" type="quantitative" />
+            <column-instance column="[metric]" derivation="None" name="[none:metric:nk]" pivot="key" type="nominal" />
+            <column-instance column="[area]" derivation="None" name="[none:area:nk]" pivot="key" type="nominal" />
+            <column-instance column="[year]" derivation="None" name="[none:year:ok]" pivot="key" type="ordinal" />
+            <column-instance column="[value]" derivation="Sum" name="[sum:value:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <filter class="categorical" column="[housing].[none:metric:nk]">
+            <groupfilter function="member" level="[none:metric:nk]" member="&quot;completions&quot;" />
+          </filter>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="mark">
+            <format attr="mark-color" value="#267269" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Line" />
+            <encodings>
+              <color column="[housing].[none:area:nk]" />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[housing].[sum:value:qk]</rows>
+        <cols>[housing].[none:year:ok]</cols>
+      </table>
+      <simple-id uuid="{A7E084E6-4339-425A-B4C5-FBA49A2F3433}" />
+    </worksheet>
+    <worksheet name="3 | Average two-bedroom rent (CAD)">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname="Arial" fontsize="12" bold="true">3 | Average two-bedroom rent (CAD)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="PEI | Official housing indicators" name="housing" />
+          </datasources>
+          <datasource-dependencies datasource="housing">
+            <column datatype="string" name="[metric]" role="dimension" type="nominal" />
+            <column datatype="string" name="[area]" role="dimension" type="nominal" />
+            <column datatype="string" name="[year]" role="dimension" type="ordinal" />
+            <column datatype="real" name="[value]" role="measure" type="quantitative" />
+            <column-instance column="[metric]" derivation="None" name="[none:metric:nk]" pivot="key" type="nominal" />
+            <column-instance column="[area]" derivation="None" name="[none:area:nk]" pivot="key" type="nominal" />
+            <column-instance column="[year]" derivation="None" name="[none:year:ok]" pivot="key" type="ordinal" />
+            <column-instance column="[value]" derivation="Sum" name="[sum:value:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <filter class="categorical" column="[housing].[none:metric:nk]">
+            <groupfilter function="member" level="[none:metric:nk]" member="&quot;rent_2br&quot;" />
+          </filter>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="mark">
+            <format attr="mark-color" value="#267269" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Line" />
+            <encodings>
+              <color column="[housing].[none:area:nk]" />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[housing].[sum:value:qk]</rows>
+        <cols>[housing].[none:year:ok]</cols>
+      </table>
+      <simple-id uuid="{B27574D3-42A6-493E-AAF3-F41E0F96DC69}" />
+    </worksheet>
+    <worksheet name="4 | Rental vacancy (%)">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname="Arial" fontsize="12" bold="true">4 | Rental vacancy (%)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="PEI | Official housing indicators" name="housing" />
+          </datasources>
+          <datasource-dependencies datasource="housing">
+            <column datatype="string" name="[metric]" role="dimension" type="nominal" />
+            <column datatype="string" name="[area]" role="dimension" type="nominal" />
+            <column datatype="string" name="[year]" role="dimension" type="ordinal" />
+            <column datatype="real" name="[value]" role="measure" type="quantitative" />
+            <column-instance column="[metric]" derivation="None" name="[none:metric:nk]" pivot="key" type="nominal" />
+            <column-instance column="[area]" derivation="None" name="[none:area:nk]" pivot="key" type="nominal" />
+            <column-instance column="[year]" derivation="None" name="[none:year:ok]" pivot="key" type="ordinal" />
+            <column-instance column="[value]" derivation="Sum" name="[sum:value:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <filter class="categorical" column="[housing].[none:metric:nk]">
+            <groupfilter function="member" level="[none:metric:nk]" member="&quot;vacancy_pct&quot;" />
+          </filter>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="mark">
+            <format attr="mark-color" value="#267269" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Line" />
+            <encodings>
+              <color column="[housing].[none:area:nk]" />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[housing].[sum:value:qk]</rows>
+        <cols>[housing].[none:year:ok]</cols>
+      </table>
+      <simple-id uuid="{E96EB4E5-97D5-489D-ABFA-C2BC513F4F4A}" />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name="PEI Housing Pressure Monitor">
+      <style />
+      <size maxheight="850" maxwidth="1200" minheight="850" minwidth="1200" />
+      <zones>
+        <zone h="100000" w="100000" x="0" y="0" id="1" type-v2="layout-basic">
+          <zone id="3" name="1 | PEI population change" x="1500" y="14000" w="47000" h="34000" />
+          <zone id="4" name="2 | PEI completions (ends 2022)" x="50500" y="14000" w="47000" h="34000" />
+          <zone id="5" name="3 | Average two-bedroom rent (CAD)" x="1500" y="50000" w="47000" h="34000" />
+          <zone id="6" name="4 | Rental vacancy (%)" x="50500" y="50000" w="47000" h="34000" />
+          <zone id="2" x="1500" y="500" w="97000" h="12000" type-v2="text">
+            <formatted-text>
+              <run fontname="Arial" fontsize="11">PEI HOUSING PRESSURE MONITOR
+Province-wide population/completions context; separate urban rental survey areas.</run>
+            </formatted-text>
+            <zone-style />
+          </zone>
+          <zone id="9" x="1500" y="87500" w="97000" h="12000" type-v2="text">
+            <formatted-text>
+              <run fontname="Arial" fontsize="11">Completions end 2022. Rental observations through 2025. Missing values are not zero.
+Rent/vacancy: privately initiated row/apartment structures of 3+ units. No rural estimate or causal housing deficit.
+Source: Statistics Canada / CMHC. See methodology and source manifest in repository.</run>
+            </formatted-text>
+            <zone-style />
+          </zone>
+          <zone-style />
+        </zone>
+      </zones>
+      <simple-id uuid="{88F7D278-9ABF-4D7F-A6B9-C1E232BF46A1}" />
+    </dashboard>
+  </dashboards>
+  <windows>
+    <window class="dashboard" name="PEI Housing Pressure Monitor" maximized="true">
+      <viewpoints>
+        <viewpoint name="1 | PEI population change">
+          <zoom type="entire-view" />
+        </viewpoint>
+        <viewpoint name="2 | PEI completions (ends 2022)">
+          <zoom type="entire-view" />
+        </viewpoint>
+        <viewpoint name="3 | Average two-bedroom rent (CAD)">
+          <zoom type="entire-view" />
+        </viewpoint>
+        <viewpoint name="4 | Rental vacancy (%)">
+          <zoom type="entire-view" />
+        </viewpoint>
+      </viewpoints>
+      <active id="-1" />
+      <simple-id uuid="{A134F327-0A4D-479A-AA06-6BEE86A82B51}" />
+    </window>
+  </windows>
+</workbook>

@@ -1,0 +1,17 @@
+year,geo,rent_2br,observed_rent_change_pct,vacancy_pct
+2018,Charlottetown survey area,937.0,2.8540065861690556,0.2
+2019,Charlottetown survey area,962.0,2.6680896478121774,1.2
+2020,Charlottetown survey area,1013.0,5.301455301455293,2.5
+2021,Charlottetown survey area,1119.0,10.463968410661394,1.5
+2022,Charlottetown survey area,1083.0,-3.217158176943702,0.9
+2023,Charlottetown survey area,1190.0,9.879963065558627,0.6
+2024,Charlottetown survey area,1239.0,4.117647058823537,0.7
+2025,Charlottetown survey area,1354.0,9.281678773204206,1.7
+2018,Summerside survey area,842.0,3.950617283950608,0.6
+2019,Summerside survey area,860.0,2.13776722090262,0.7
+2020,Summerside survey area,889.0,3.3720930232558066,1.0
+2021,Summerside survey area,912.0,2.5871766029246235,0.7
+2022,Summerside survey area,930.0,1.9736842105263053,1.0
+2023,Summerside survey area,935.0,0.5376344086021501,2.7
+2024,Summerside survey area,1097.0,17.32620320855616,0.8
+2025,Summerside survey area,1241.0,13.126709206927977,3.2

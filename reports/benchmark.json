@@ -1,0 +1,27 @@
+{
+  "runs": [
+    {
+      "completed_at": "2026-11-13T07:18:29.081290+00:00",
+      "seconds": 0.493,
+      "analytical_sha256": "09ec746486ceb5efa3e5e2fdeab8fc93925677e9bcecac887c96b441ef4926cf",
+      "rows": 90,
+      "postgres_verified": false
+    },
+    {
+      "completed_at": "2026-11-13T07:18:29.569255+00:00",
+      "seconds": 0.488,
+      "analytical_sha256": "09ec746486ceb5efa3e5e2fdeab8fc93925677e9bcecac887c96b441ef4926cf",
+      "rows": 90,
+      "postgres_verified": false
+    },
+    {
+      "completed_at": "2026-11-13T07:18:30.058194+00:00",
+      "seconds": 0.489,
+      "analytical_sha256": "09ec746486ceb5efa3e5e2fdeab8fc93925677e9bcecac887c96b441ef4926cf",
+      "rows": 90,
+      "postgres_verified": false
+    }
+  ],
+  "median_seconds": 0.489,
+  "identical_results": true
+}

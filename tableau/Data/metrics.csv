@@ -1,0 +1,54 @@
+metric,area,year,value
+population_change,PEI,2018,3262.0
+starts,PEI,2018,1089.0
+completions,PEI,2018,950.0
+population_change,PEI,2019,3613.0
+starts,PEI,2019,1504.0
+completions,PEI,2019,768.0
+population_change,PEI,2020,1746.0
+starts,PEI,2020,1240.0
+completions,PEI,2020,1484.0
+population_change,PEI,2021,4963.0
+starts,PEI,2021,1260.0
+completions,PEI,2021,1396.0
+population_change,PEI,2022,5528.0
+starts,PEI,2022,1318.0
+completions,PEI,2022,1266.0
+population_change,PEI,2023,6403.0
+starts,PEI,2023,1139.0
+population_change,PEI,2024,3682.0
+starts,PEI,2024,1694.0
+population_change,PEI,2025,2760.0
+starts,PEI,2025,1769.0
+rent_2br,Charlottetown survey area,2018,937.0
+vacancy_pct,Charlottetown survey area,2018,0.2
+rent_2br,Charlottetown survey area,2019,962.0
+vacancy_pct,Charlottetown survey area,2019,1.2
+rent_2br,Charlottetown survey area,2020,1013.0
+vacancy_pct,Charlottetown survey area,2020,2.5
+rent_2br,Charlottetown survey area,2021,1119.0
+vacancy_pct,Charlottetown survey area,2021,1.5
+rent_2br,Charlottetown survey area,2022,1083.0
+vacancy_pct,Charlottetown survey area,2022,0.9
+rent_2br,Charlottetown survey area,2023,1190.0
+vacancy_pct,Charlottetown survey area,2023,0.6
+rent_2br,Charlottetown survey area,2024,1239.0
+vacancy_pct,Charlottetown survey area,2024,0.7
+rent_2br,Charlottetown survey area,2025,1354.0
+vacancy_pct,Charlottetown survey area,2025,1.7
+rent_2br,Summerside survey area,2018,842.0
+vacancy_pct,Summerside survey area,2018,0.6
+rent_2br,Summerside survey area,2019,860.0
+vacancy_pct,Summerside survey area,2019,0.7
+rent_2br,Summerside survey area,2020,889.0
+vacancy_pct,Summerside survey area,2020,1.0
+rent_2br,Summerside survey area,2021,912.0
+vacancy_pct,Summerside survey area,2021,0.7
+rent_2br,Summerside survey area,2022,930.0
+vacancy_pct,Summerside survey area,2022,1.0
+rent_2br,Summerside survey area,2023,935.0
+vacancy_pct,Summerside survey area,2023,2.7
+rent_2br,Summerside survey area,2024,1097.0
+vacancy_pct,Summerside survey area,2024,0.8
+rent_2br,Summerside survey area,2025,1241.0
+vacancy_pct,Summerside survey area,2025,3.2
